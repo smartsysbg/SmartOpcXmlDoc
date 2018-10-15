@@ -1,0 +1,46 @@
+theme: 
+    name: readthedocs
+site_name: Smart OPC XML Server Documentation
+pages:
+    - Getting Started:
+        - Introduction: index.md
+        - Installation: install-smart-opc-xml-server.md
+        - Server Configuration: server-configuration.md
+        - Logging: logging.md
+        - Data Access:
+            - Module: opc-xml-da-module.md
+            - OPC DA Plugin: opc-da-plugin.md
+            - Gateway Plugin: opc-xml-da-gateway-plugin.md
+            - WMI Plugin: opc-xml-da-wmi-plugin.md
+            - Virtualize Plugin: opc-xml-da-virtualize-plugin.md
+            - Simulation Plugin: opc-xml-da-simulation-plugin.md
+        - Historical Data Access:
+            - Module: opc-xml-hda-module.md
+            - OPC HDA Plugin: opc-hda-plugin.md
+            - Gateway Plugin: opc-xml-hda-gateway-plugin.md
+            - Virtualize Plugin: opc-xml-hda-virtualize-plugin.md
+        - Windows Service Manual Registration: windows-service-manual-registration.md
+        - Managing With Windows Power Shell: managing-with-windows-power-shell.md
+    - Appendices:
+        - OPC XML DA Virtualize Plugin Snippets: opc-xml-da-virtualize-plugin-snippets.md
+        - OPC XML DA Interface Short Reference: opc-xml-da-interface-short-reference.md
+        - OPC XML DA Address Space Item Properties Short Reference: opc-xml-da-address-space-item-properties.md
+        - OPC XML HDA Interface Short Reference: opc-xml-hda-interface-short-reference.md
+        - Creating HTTPS Certificate: creating-https-certificate.md
+        - Installing OPC XML DA Test Client: installing-opc-xml-da-test-client.md
+        - Installing OPC XML HDA Test Client: installing-opc-xml-hda-test-client.md
+        - Connecting with Honeywell Experion PKS OPC DA/HDA: connecting-with-honeywell-epks-opc-da-hda.md
+        - Connecting with Honeywell Uniformance PHD OPC DA/HDA: connecting-with-honeywell-uniformance-phd-opc-da-hda.md
+        - Run Smart OPC XML Server Service Under Non-administrative Account: run-smart-opc-xml-server-with-non-admin-account.md
+        - Avoiding TCP/IP Port Exhaustion (Windows): avoiding-tcp-ip-port-exhaustion-windows.md
+    - Инсталиране и конфигуриране на OPC DA връзка с Honeywell EPKS:         
+        - Инсталиране на Smart OPC XML Server: short-guide-bg/install-smart-opc-xml-server.md
+        - Конфигуриране на OPC DA плъгин: short-guide-bg/configure-opc-da-plugin.md
+        - Свързване с Honeywell Experion PKS OPC DA/HDA: short-guide-bg/connect-with-honeywell-experion-pks.md
+        - Свързване с Honeywell Uniformance PHD OPC DA/HDA: short-guide-bg/connect-with-honeywell-uniformance-phd.md
+        - Стартиране на Smart OPC XML Server услуга под не-административен акаунт: short-guide-bg/run-smart-opc-xml-server-with-non-admin-account.md
+markdown_extensions:
+    - admonition
+    - toc
+    - attr_list 
+

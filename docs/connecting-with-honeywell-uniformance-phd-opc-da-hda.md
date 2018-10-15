@@ -1,0 +1,1 @@
+**Smart OPC XML Server** unlike connecting to **Honeywell EPKS OPC DA/HDA** cannot connect to the **Honeywell Uniformance PHD** **OPC DA/HDA** using  nitialize **COM** security option. The way to connect is to run the **Smart OPC XML Server** service under credentials that have granted access to the  **Uniformance PHD OPC DA/HDA**.
